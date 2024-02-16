@@ -156,7 +156,7 @@ function updatetime(second) {
 }
 
 async function fetchWeather(region, day) {
-  let url = `https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-480FD02B-2155-49AB-B24B-1796E44F6333&locationName=${region}`;
+  let url = `https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-8AE7B8A8-35E9-4646-8FFD-2F89AB6BD944&locationName=${region}`;
   citySelectorclose();
   const response = await fetch(url);
   const rawData = await response.json();
